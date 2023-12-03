@@ -9,7 +9,6 @@ data = response.json()
 # os.mkdir("todos")
 
 print(data)
-
 os.chdir("todos")
 for todo in data:
     # print(todo["id"])
